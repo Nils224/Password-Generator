@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+        <title>Password Generator</title>
+	</head>
+	<body>
+
+        <header class='header'>
+            <h1 class='heading-1'>Password Generator</h1>
+        </header>
+
+        <main class='main .column--mobile-12'>
+            <h2 class='heading-2'>Generate a Password</h2>
+
+            <textarea readonly class='password' placeholder='Your Secure Password' aria-label='Generated Password'></textarea>
+            <br>
+            <div class='buttons'>
+                <button class='generate'>Generate Password</button>
+
+                <button class='copy'> Copy to Clipboard </button>
+            </div>
+        </main>
+
+        <script>
+
+            const char ='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@£$%^&*()?/#{}[]';
+
+            let gen = document.querySelector('.generate');
+            let myPass = document.querySelector('.password');
+
+            
+
+            gen.addEventListener('click',function(event){
+                passLength = prompt("please choose the length of your password");
+                alert("do you want numbers?");
+                alert("do you want symbols?");
+            });
+
+            
+
+            
+
+            function password(passLength,characters){
+                let pwd='';
+                for(i=0; i<passLength; i++) {
+                    pwd += characters.charAt(Math.floor(Math.random()*characters.length));
+                }
+            }
+
+
+            gen.addEventListener('submit',function(event){
+                myPass.innerHTML=pwd;
+            });
+
+
+
+
+            
+            // myPass.addEventListener('submit',function(event){
+            //     document.querySelector('.password').innerHTML=pwd;
+                
+            // });
+            
+
+            
+
+            // console.log(password(passLength,char));
+
+
+            // const charList = {
+            //     num: 0123456789,
+            //     special: '!#%&()*+,-.$/:;<=>?@[\]^{|}~',
+            //     upperC: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+            //     lowerC: 'abcdefghijklmnopqrstuvwxyz',
+                
+            // };
+
+            // let charValue = Object.values(charList);
+
+            // console.log(Object.values(charList));
+
+
+
+
+
+    
+            
+        
+        
+        </script>
+
+    </body>
+    
+</html>
