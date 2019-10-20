@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    max-width: 700px;
+    max-width: 980px;
     padding: 25px;
     background-color: #ffffff;
     border-radius: 5px;
@@ -46,16 +46,19 @@ body {
 }
 
 .password {
+    display: flex;
+    flex-wrap: wrap;
     border-left: lightgray;
     border-right: lightgray;
     margin: 0;
     padding: 10px;
     height: 100px;
     font-family: 'Aldrich', sans-serif;
+    font-size: 20px;
     text-align: center;
     vertical-align: middle;
     line-height: 70px;
-    resize: none;
+    resize: vertical;
 }
 
 .buttons {
