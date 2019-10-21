@@ -7,20 +7,20 @@ It has been disgned to show a few key concepts that Javascript can offer. I have
 
 ## Installation
 
-To access the password generator and have first hand usage then follow this link [link](nils224.github.io).
+To access the password generator and have first hand usage then follow this link [nils224.github.io](https://nils224.github.io).
 
 ## Usage
 To generate a password, select the type of characters you wish to include in your password.
 Then click "Generate password" and choose the length you desire in the prompt box.
 To copy the generated password click "Copy to Clipboard".
 
-![screenShot](assest/Screenshot1.png)
+![screenShot](assets/Screenshot1.png)
 
-![screenShot](assest/Screenshot2.png)
+![screenShot](assets/Screenshot2.png)
 
-![screenShot](assest/Screenshot3.png)
+![screenShot](assets/Screenshot3.png)
 
-![screenShot](assest/Screenshot2.png)
+![screenShot](assets/Screenshot2.png)
 
 ## License
 
