@@ -14,13 +14,13 @@ To generate a password, select the type of characters you wish to include in you
 Then click "Generate password" and choose the length you desire in the prompt box.
 To copy the generated password click "Copy to Clipboard".
 
-![screenShot](assets/Screenshot1.png)
+![screenShot](Assets/Screenshot1.png)
 
-![screenShot](assets/Screenshot2.png)
+![screenShot](Assets/Screenshot2.png)
 
-![screenShot](assets/Screenshot3.png)
+![screenShot](Assets/Screenshot3.png)
 
-![screenShot](assets/Screenshot2.png)
+![screenShot](Assets/Screenshot2.png)
 
 ## License
 
