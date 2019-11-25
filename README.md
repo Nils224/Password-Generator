@@ -7,7 +7,7 @@ It has been disgned to show a few key concepts that Javascript can offer. I have
 
 ## Installation
 
-To access the password generator and have first hand usage then follow this link [nils224.github.io](https://nils224.github.io).
+To access the password generator and have first hand usage then click below[Password Generator](https://nils224.github.io/Password-Generator/Develop/index.html)
 
 ## Usage
 To generate a password, select the type of characters you wish to include in your password.
